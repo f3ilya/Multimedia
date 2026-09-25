@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multimedia</string>
+    <string name="album">Альбом</string>
+    <string name="artist">Исполнитель:</string>
+    <string name="circle">Круг</string>
+    <string name="playback_error">Ошибка вопроизведения</string>
+    <string name="album_not_found">Альом не найден</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="error">Ошибка: %1$d</string>
+    <string name="body_is_null">Отсутствует тело ответа</string>
+    <string name="network_error">Ошибка сети: %1$s</string>
+    <string name="error_description">Ошибка</string>
+    <string name="something_went_wrong">Что-то пошло не так. Проверьте интернет-соединение.</string>
+    <string name="update">Обновить</string>
+</resources>
