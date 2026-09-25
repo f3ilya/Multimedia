@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
         currentTrack?.isPlaying = false
 
         val currentIndex = trackList.indexOfFirst { it.id == currentTrack?.id }
-        val nextTrack = if (currentIndex == 1 || currentIndex == trackList.lastIndex) {
+        val nextTrack = if (currentIndex == -1 || currentIndex == trackList.lastIndex) {
             trackList.first()
         } else {
             trackList[currentIndex + 1]
