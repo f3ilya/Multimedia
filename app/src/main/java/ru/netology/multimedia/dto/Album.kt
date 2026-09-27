@@ -1,5 +1,7 @@
 package ru.netology.multimedia.dto
 
+import ru.netology.multimedia.utils.UiText
+
 data class Album(
     val id: Long = 1,
     val title: String = "MySong",
@@ -13,6 +15,15 @@ data class Album(
 data class Track(
     val id: Long = 1,
     val file: String = "0.mp3",
-    var isLiked: Boolean = false,
-    var isPlaying: Boolean = false,
+    val isLiked: Boolean = false,
+    val isPlaying: Boolean = false,
+)
+
+data class AlbumState(
+    val album: Album? = null,
+    val tracks: List<Track> = emptyList(),
+    val currentTrack: Track? = null,
+    val isAlbumPlaying: Boolean = false,
+    val isLoading: Boolean = false,
+    val error: UiText? = null,
 )

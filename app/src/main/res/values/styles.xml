@@ -18,6 +18,7 @@
         <item name="android:backgroundTint">@color/yellow</item>
         <item name="strokeWidth">0dp</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Circle</item>
+        <item name="iconTint">@color/black</item>
     </style>
     <style name="Widget.AppTheme.HeadingText" parent="Widget.Material3.TextView.ListItem.LabelText">
         <item name="android:textStyle">bold</item>
